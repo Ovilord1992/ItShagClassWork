@@ -25,12 +25,7 @@ public class Task2 {
     }
 
     public static void findMin(int[] array) {
-        double min = array[0];
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < array[0]) {
-                min = array[i];
-            }
-        }
+        int min = array[0];
         System.out.println(min);
     }
 }

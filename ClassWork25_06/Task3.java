@@ -11,10 +11,10 @@ public class Task3 {
         for (int i : array) {
             set.add(i);
         }
-       if (set.size() > 1){
-           System.out.println("Есть повторяющиеся");
-       }else {
-           System.out.println("все одинаковые");
-       }
+        if (set.size() > 1) {
+            System.out.println("Есть повторяющиеся");
+        } else {
+            System.out.println("все одинаковые");
+        }
     }
 }

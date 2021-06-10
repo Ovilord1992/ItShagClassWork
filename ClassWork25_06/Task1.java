@@ -13,8 +13,7 @@ public class Task1 {
             array[i] = b;
         }
 
-        for (int k:
-             array) {
+        for (int k : array) {
             if (k % 2 == 0) {
                 System.out.println(k);
             }
