@@ -23,8 +23,8 @@ public class Task_8 {
         }
 
         System.out.println(Arrays.toString(a));
-        System.out.println(Arrays.stream(a).max());
-        System.out.println(Arrays.stream(a).min());
+        System.out.println(Arrays.stream(a).max().getAsInt());
+        System.out.println(Arrays.stream(a).min().getAsInt());
 
         System.out.println("нулей " + n);
         System.out.println("больше нуля " + b);

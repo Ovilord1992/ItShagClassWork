@@ -11,8 +11,8 @@ public class Task_2 {
         String b = scanner.nextLine();
         int count = 0;
 
-        for (String k:a) {
-            if (k.contains(b)){
+        for (String k : a) {
+            if (k.contains(b)) {
                 count++;
             }
         }
